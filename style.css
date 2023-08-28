@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    padding:0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: red;
@@ -50,6 +51,11 @@ body{
     text-align: center; 
     font-family: 'Ubuntu', sans-serif;
 }
+@media screen and (max-width: 768px) {
+    .gameOver {
+        font-size: 40px;
+        top: 50px;
+    }
 
 #scoreCont{
     font-size: 25px;
